@@ -1,0 +1,44 @@
+{
+  "preview": "HTTP 200",
+  "all": 6,
+  "journals": 3,
+  "conferences": 3,
+  "preprints": 0,
+  "paperImages": [
+    "assets/strategic.png",
+    "assets/mset.png",
+    "assets/ukci.png",
+    "assets/aamas.png",
+    "assets/sensing.png",
+    "assets/blockchain.png"
+  ],
+  "portrait": "User-supplied portrait.jpg; full original aspect ratio",
+  "publicationNews": [
+    "Jan 2026 — Applied Soft Computing",
+    "Dec 2023 — Transportation Research Part C"
+  ],
+  "summary": "passed",
+  "bibtex": "passed",
+  "clipboard": "passed",
+  "news": "passed",
+  "cv": "HTTP 200",
+  "themePersistence": "passed",
+  "viewportWidths": [
+    360,
+    390,
+    540,
+    768,
+    1024,
+    1440
+  ],
+  "offlineFileOpening": "passed",
+  "pageErrors": [],
+  "email": "c.qin@leeds.ac.uk — text and mailto verified",
+  "newsCount": 8,
+  "mengAward": "June 2024 — verified against supplied CV",
+  "linkedInHref": "https://www.linkedin.com/in/chuhao-qin-85349a275/",
+  "linkedInBrowser": {
+    "url": "https://www.linkedin.com/in/chuhao-qin-85349a275",
+    "title": ""
+  }
+}
