@@ -14,8 +14,8 @@
     toastTimer = setTimeout(() => toast.classList.remove('show'), 2500);
   }
 
-  function renderPublications(filter = 'all') {
-    const visible = publications.filter(p => filter === 'all' || p.kind === filter);
+  function renderPublications(filter = 'selected') {
+    const visible = publications.filter(p => filter === 'all' || (filter === 'selected' ? p.selected : p.kind === filter));
     document.getElementById('publication-count').textContent = `${visible.length} papers`;
     list.innerHTML = visible.map(p => {
       const url = p.doi ? `https://doi.org/${p.doi}` : `https://arxiv.org/abs/${p.arxiv}`;

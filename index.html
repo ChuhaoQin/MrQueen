@@ -19,9 +19,9 @@
     <div class="header-inner">
       <a class="wordmark" href="#about" aria-label="Chuhao Qin home"><strong>Chuhao</strong> Qin<span class="wordmark-dot">.</span></a>
       <nav aria-label="Main navigation">
-        <a href="#about" class="nav-link active" aria-current="location">about</a>
-        <a href="#publications" class="nav-link">publications</a>
-        <a href="#news" class="nav-link">news</a>
+        <a href="#about" class="nav-link active" aria-current="location">About</a>
+        <a href="#news" class="nav-link">News</a>
+        <a href="#publications" class="nav-link">Publications</a>
         <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch theme"><svg class="moon" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20.6 13.2A8.7 8.7 0 0 1 10.8 3.4 8.8 8.8 0 1 0 20.6 13.2Z"/></svg><svg class="sun" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19M5 19l1.4-1.4M17.6 6.4 19 5"/></svg></button>
       </nav>
     </div>
@@ -52,18 +52,19 @@
     </section>
 
     <section id="news" class="section" aria-labelledby="news-title">
-      <div class="section-heading"><h2 id="news-title">news<span class="heading-dot">.</span></h2><span class="section-note">A few recent updates</span></div>
+      <div class="section-heading"><h2 id="news-title">News</h2><span class="section-note">A few recent updates</span></div>
       <div id="news-list" class="news-list"></div>
       <noscript><p>I became a Research Fellow at the University of Leeds in July 2025 and received my PhD in September 2025. Please see my <a href="assets/CV_ChuhaoQin.pdf">CV</a> for more details.</p></noscript>
       <button id="news-more" class="text-button" type="button" aria-expanded="false" aria-controls="news-list">Earlier updates <span aria-hidden="true">↓</span></button>
     </section>
 
     <section id="publications" class="section" aria-labelledby="publications-title">
-      <div class="section-heading"><h2 id="publications-title">publications<span class="heading-dot">.</span></h2><a class="section-note scholar-link" href="https://scholar.google.com/citations?user=S7egAvkAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Full list on Google Scholar <span aria-hidden="true">↗</span></a></div>
+      <div class="section-heading"><h2 id="publications-title">Publications</h2><a class="section-note scholar-link" href="https://scholar.google.com/citations?user=S7egAvkAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Full list on Google Scholar <span aria-hidden="true">↗</span></a></div>
       <p class="section-description">Published work on learning, coordination, and autonomous systems.</p>
       <div class="publication-controls">
         <div class="filters" role="group" aria-label="Filter publications">
-          <button type="button" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" data-filter="selected" aria-pressed="true">Selected Publications</button>
+          <button type="button" data-filter="all" aria-pressed="false">All</button>
           <button type="button" data-filter="journal" aria-pressed="false">Journals</button>
           <button type="button" data-filter="conference" aria-pressed="false">Conferences</button>
         </div>
