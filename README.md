@@ -18,7 +18,7 @@ python3 -m http.server 8765 --bind 127.0.0.1
 
 - About：Research Fellow 身份、研究方向、教育背景、提供的新照片、邮箱，以及直达原始 CV 的 PDF 链接。
 - News：8 条有来源的动态，包含 Applied Soft Computing（2026 年 1 月）和 TR-C（2023 年 12 月）的发表消息，以及 MEng 团队 Best Student Project 获奖消息（2024 年 6 月）；默认显示 5 条，可展开历史消息。
-- Publications：6 项已发表论文（3 篇期刊、3 篇会议），默认全部展示；可切换全部、期刊及会议。提供 TL;DR、BibTeX，以及有依据的 DOI、arXiv、PDF、代码或数据链接。
+- Publications：6 项已发表论文（3 篇期刊、3 篇会议），默认展示 Selected Publications 中的 Applied Soft Computing、TR-C 与 LCN 三项论文；可切换全部、期刊及会议。提供 TL;DR、BibTeX，以及有依据的 DOI、arXiv、PDF、代码或数据链接。
 - 支持手机布局、深浅主题、键盘操作与引用复制。
 
 已按要求移除全部 6 项预印本。这里的 All 指当前收录的 6 项已发表论文；Google Scholar 入口用于查看完整个人学术记录。没有使用自动更新的引用量，也未将预印本标记为已接收论文。
@@ -28,7 +28,7 @@ python3 -m http.server 8765 --bind 127.0.0.1
 | 文件 | 内容 |
 | --- | --- |
 | `index.html` | About 文案、导航、社交账号、邮箱 |
-| `content.js` | 论文条目与 News 数据；默认展示全部已发表论文 |
+| `content.js` | 论文条目与 News 数据；`selected: true` 的论文默认在 Selected Publications 展示 |
 | `styles.css` | 配色、字体、间距和响应式布局 |
 | `script.js` | 筛选、详情、复制引用、主题切换 |
 | `assets/CV_ChuhaoQin.pdf` | 提供的 CV 原文件；替换同名文件即可更新 |

@@ -20,7 +20,8 @@ window.PROFILE_CONTENT = {
       "data": "https://doi.org/10.6084/m9.figshare.24476533.v2",
       "volume": "186",
       "pages": "114270",
-      "bibtex": "@article{qin2026strategic2026,\n  title = {Strategic coordination of drones via short-term distributed optimization and long-term reinforcement learning},\n  author = {Qin, Chuhao and Pournaras, Evangelos},\n  journal = {Applied Soft Computing},\n  year = {2026},\n  volume = {186},\n  pages = {114270},\n  doi = {10.1016/j.asoc.2025.114270},\n  url = {https://doi.org/10.1016/j.asoc.2025.114270},\n}"
+      "bibtex": "@article{qin2026strategic2026,\n  title = {Strategic coordination of drones via short-term distributed optimization and long-term reinforcement learning},\n  author = {Qin, Chuhao and Pournaras, Evangelos},\n  journal = {Applied Soft Computing},\n  year = {2026},\n  volume = {186},\n  pages = {114270},\n  doi = {10.1016/j.asoc.2025.114270},\n  url = {https://doi.org/10.1016/j.asoc.2025.114270},\n}",
+      "selected": true
     },
     {
       "id": "240610916",
@@ -46,7 +47,8 @@ window.PROFILE_CONTENT = {
       "imageAlt": "M-SET architecture connecting physical drone testbeds, simulation, and coordination software",
       "code": "https://github.com/TDI-Lab/M-SET",
       "pages": "1--7",
-      "bibtex": "@inproceedings{qin2024240610916,\n  title = {M-SET: Multi-Drone Swarm Intelligence Experimentation with Collision Avoidance Realism},\n  author = {Qin, Chuhao and Robins, Alexander and Lillywhite-Roake, Callum and Pearce, Adam and Mehta, Hritik and James, Scott and Wong, Tsz Ho and Pournaras, Evangelos},\n  booktitle = {IEEE 49th Conference on Local Computer Networks (LCN)},\n  year = {2024},\n  pages = {1--7},\n  doi = {10.1109/LCN60385.2024.10639825},\n  url = {https://doi.org/10.1109/LCN60385.2024.10639825},\n}"
+      "bibtex": "@inproceedings{qin2024240610916,\n  title = {M-SET: Multi-Drone Swarm Intelligence Experimentation with Collision Avoidance Realism},\n  author = {Qin, Chuhao and Robins, Alexander and Lillywhite-Roake, Callum and Pearce, Adam and Mehta, Hritik and James, Scott and Wong, Tsz Ho and Pournaras, Evangelos},\n  booktitle = {IEEE 49th Conference on Local Computer Networks (LCN)},\n  year = {2024},\n  pages = {1--7},\n  doi = {10.1109/LCN60385.2024.10639825},\n  url = {https://doi.org/10.1109/LCN60385.2024.10639825},\n}",
+      "selected": true
     },
     {
       "id": "220805914",
@@ -68,7 +70,8 @@ window.PROFILE_CONTENT = {
       "pages": "576--587",
       "bibtex": "@inproceedings{qin2024220805914,\n  title = {3, 2, 1, Drones Go! A Testbed to Take off UAV Swarm Intelligence for Distributed Sensing},\n  author = {Qin, Chuhao and Candan, Fethi and Mihaylova, Lyudmila S. and Pournaras, Evangelos},\n  booktitle = {UKCI 2022 · Advances in Computational Intelligence Systems},\n  year = {2024},\n  pages = {576--587},\n  doi = {10.1007/978-3-031-55568-8_48},\n  note = {Conference held in 2022; proceedings published in 2024.},\n  url = {https://doi.org/10.1007/978-3-031-55568-8_48},\n}",
       "image": "ukci.png",
-      "imageAlt": "UAV sensing testbed architecture connecting EPOS plan generation, optimized plan selection, and DJI Tello execution"
+      "imageAlt": "UAV sensing testbed architecture connecting EPOS plan generation, optimized plan selection, and DJI Tello execution",
+      "selected": false
     },
     {
       "id": "230516993",
@@ -90,7 +93,8 @@ window.PROFILE_CONTENT = {
       "pages": "60--76",
       "bibtex": "@inproceedings{qin2024230516993,\n  title = {Discrete-choice Multi-agent Optimization: Decentralized Hard Constraint Satisfaction for Smart Cities},\n  author = {Majumdar, Srijoni and Qin, Chuhao and Pournaras, Evangelos},\n  booktitle = {AAMAS 2023 · Autonomous Agents and Multiagent Systems. Best and Visionary Papers},\n  year = {2024},\n  pages = {60--76},\n  doi = {10.1007/978-3-031-56255-6_4},\n  note = {Conference held in 2023; revised selected papers published in 2024.},\n  url = {https://doi.org/10.1007/978-3-031-56255-6_4},\n}",
       "image": "aamas.png",
-      "imageAlt": "EPOS configuration of individual and global hard constraints for decentralized multi-agent optimization"
+      "imageAlt": "EPOS configuration of individual and global hard constraints for decentralized multi-agent optimization",
+      "selected": false
     },
     {
       "id": "221214116",
@@ -110,7 +114,8 @@ window.PROFILE_CONTENT = {
       "imageAlt": "Energy-aware drone sensing framework with flight plans, distributed coordination, and traffic monitoring",
       "volume": "157",
       "pages": "104387",
-      "bibtex": "@article{qin2023221214116,\n  title = {Coordination of Drones at Scale: Decentralized Energy-aware Swarm Intelligence for Spatio-temporal Sensing},\n  author = {Qin, Chuhao and Pournaras, Evangelos},\n  journal = {Transportation Research Part C: Emerging Technologies},\n  year = {2023},\n  volume = {157},\n  pages = {104387},\n  doi = {10.1016/j.trc.2023.104387},\n  url = {https://doi.org/10.1016/j.trc.2023.104387},\n}"
+      "bibtex": "@article{qin2023221214116,\n  title = {Coordination of Drones at Scale: Decentralized Energy-aware Swarm Intelligence for Spatio-temporal Sensing},\n  author = {Qin, Chuhao and Pournaras, Evangelos},\n  journal = {Transportation Research Part C: Emerging Technologies},\n  year = {2023},\n  volume = {157},\n  pages = {104387},\n  doi = {10.1016/j.trc.2023.104387},\n  url = {https://doi.org/10.1016/j.trc.2023.104387},\n}",
+      "selected": true
     },
     {
       "id": "blockchain2021",
@@ -132,7 +137,8 @@ window.PROFILE_CONTENT = {
       "pdf": "https://jit.ndhu.edu.tw/article/download/2491/2507",
       "bibtex": "@article{qin2021blockchain2021,\n  title = {Blockchain-enabled Charging Scheduling for Unmanned Vehicles in Smart Cities},\n  author = {Qin, Chuhao and Li, Pan and Liu, Jun and Liu, Jianqi},\n  journal = {Journal of Internet Technology},\n  year = {2021},\n  volume = {22},\n  pages = {327--337},\n  doi = {10.3966/160792642021032202008},\n  url = {https://doi.org/10.3966/160792642021032202008},\n}",
       "image": "blockchain.png",
-      "imageAlt": "Blockchain-based UAV charging network connecting carriers, smart contracts, and charging transactions"
+      "imageAlt": "Blockchain-based UAV charging network connecting carriers, smart contracts, and charging transactions",
+      "selected": false
     }
   ],
   "news": [
